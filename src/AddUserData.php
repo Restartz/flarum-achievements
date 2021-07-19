@@ -32,8 +32,8 @@ class AddUserData
                     "image" => $achievement_data[0]["image"],
                     "rectangle" => $achievement_data[0]["rectangle"],
                     "points" => $achievement_data[0]["points"],
-                    "new" => $achievement_data[0]["new"],
-                    "date"=>$ach["created_at"]
+                    "new" => $ach["new"],
+                    "date" => $ach["created_at"]
                 ));
         }
         
